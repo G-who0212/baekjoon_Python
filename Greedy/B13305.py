@@ -1,11 +1,6 @@
 n = int(input())
 r = list(map(int, input().split()))
 p = list(map(int, input().split()))
-
-sum = 0
-for i in range(len(r)):
-    sum += r[i]
-
 ans = 0
 
 x = 1000000001

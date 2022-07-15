@@ -11,7 +11,7 @@ while(1):
             b //= 2
             ans += 1
         elif(b % 10 == 1):
-            b = (b - 1) // 10
+            b = b // 10
             ans += 1
         else:
             ans = -1

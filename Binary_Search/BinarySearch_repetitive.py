@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 def binary_search_repetitive(array, target, start, end):
     while start <= end:
         mid = (start + end) // 2
